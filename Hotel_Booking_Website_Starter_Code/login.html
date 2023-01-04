@@ -8,9 +8,22 @@
     <link rel="stylesheet" href="styles\index.css">
 </head>
 <body>
-    <header>
+    <header><form action="index.html">
         <div>
-            LOGIN
+            <span> 
+                <label for="name">Username:</label>
+                <input type="text" placeholder="Enter Username" id="username" name="username" required>
+            </span>
         </div>
+        <div>
+            <span>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="Enter Password" required>
+            </span>
+        </div>
+        <div>
+            <a href="index.html"><input type="submit" value="Login"></a>
+        </div>
+    </form></header>
 </body>
 </html>
