@@ -1,4 +1,18 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+}
 #logoimg {
+    height: 60px;
+    width: 60px;
+    }
+.city_img{
     height: 150px;
-    width: 200px;
+    width: 150px;
+}
+.social_img{
+    height: 20px;
+    width: 22px;
 }

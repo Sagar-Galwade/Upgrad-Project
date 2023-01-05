@@ -1,0 +1,10 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+}
+.hotel-img{
+    height: 200px;
+    width: 250px;
+}
