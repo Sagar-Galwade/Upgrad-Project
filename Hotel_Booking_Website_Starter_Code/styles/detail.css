@@ -2,4 +2,16 @@
     width: 500px;
     height: 500px;
     background-repeat: no-repeat;
+    margin-top: 2%;
+}
+.spacing_det{
+    margin: 0 4% 0 4%;
+}
+#form_space{
+    margin-bottom: 1%;
+}
+#hotel_desc{
+    margin-top: 1%;
+    margin-bottom: 2%;
+
 }

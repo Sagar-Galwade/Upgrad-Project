@@ -9,17 +9,19 @@
     <link rel="stylesheet" href="styles\detail.css">
 </head>
 <body>
+    <!-- Header content -->
     <header>
         <nav>
             <div>
-                <span><a href="login.html"><img src="assests\images\logo.png" alt="logo" id="logoimg"></a></span>
+                <span><a href="index.html"><img src="assests\images\logo.png" alt="logo" id="logoimg"></a></span>
                 <span><a href="login.html">Login</a></span>
             </div>
         </nav>
     </header>
+    <!-- body content -->
     <div>
-       <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel" id="radison-img">
-       <form action="payment.html">
+       <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel" id="radison-img" class="spacing_det">
+       <form action="payment.html" class="spacing_det" id="form_space">
             <div>
                 <label for="guests">Adults:</label>
                 <input type="number" name="guests" id="adults" min="1" required>
@@ -45,7 +47,7 @@
             </div>
         </form>
        
-       <div>
+       <div id="hotel_desc" class="spacing_det">
            <h2>Radisson Blu Hotel</h2>
            <p>RATING</p>
            <P>5 Star</P>

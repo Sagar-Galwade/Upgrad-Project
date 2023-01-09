@@ -3,8 +3,17 @@ html, body{
     width: 100%;
     font-family: 'Playfair Display', serif;
     font-size: 14px;
+
 }
 .hotel-img{
     height: 200px;
     width: 250px;
+}
+.content1{
+    padding: 2%;
+}
+.list-view{
+    background-color: rgb(132,136,139);
+    width: 40%;
+    margin-bottom: 2%;
 }
