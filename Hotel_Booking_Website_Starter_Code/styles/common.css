@@ -2,7 +2,7 @@ html, body{
     margin: 0;
     height: 100%;
     width: 100%;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
 }
 #logoimg {
@@ -13,13 +13,95 @@ html, body{
     height: 150px;
     width: 150px;
 }
-.social_img{
-    height: 20px;
-    width: 22px;
-}
+.social-img{
+        height: 20px;
+        width: 22px;
+    }
 body{
     background-color: #e0e0e0;
 }
-header,footer{
+.header{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
     background-color: rosybrown;
+    width: 100%;
+    top: 0;
+    z-index: 80;
+}
+.header a{
+    text-decoration: none;
+    color: #111111;
+}
+.header .loginbtn #logoimg{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.loginbtn {
+        right: 0%;
+        top: 0px;
+        margin-top: 1.5%;
+        margin-right: 2%;
+        position: absolute;
+}
+footer{
+    display: flex;
+    background-color: rosybrown;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 60px;
+    align-items: center;
+  }
+#footerstyle_row {
+    background: rosybrown;
+    max-width: 100%;
+    margin: 0;
+    height: 60px;
+    position: fixed;
+}
+.col-md-4.contact_col {
+    width: 33.33%;
+}
+.col-md-4.copy_col{
+    width: 33.33%;
+}
+.col-md-4.social_media_col{
+width: 33.33%;
+}
+.contactbtn{
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.contactbtn a{
+    text-decoration: none;
+    color:#111111;
+}
+.copyright_col{
+    text-align: center;
+    padding-top: 2.5rem;
+    /* padding-bottom: 10px; */
+}
+#social {
+    position: absolute;
+    right: 1%;
+    align-items: center;
+    bottom: 25%;
+    margin-right: 1%;
+}
+  .contactbtn{
+    bottom: 5%;
+    margin-left: 4%;
+    text-decoration: none;
+    position: absolute;
+    color: black;
+  }
+  .copyRight{
+    margin-left: 45%;
+  font-size: 10px;
+  margin-top: 3%;
+  }
+.content{
+    padding: 5.5% 2%;
 }

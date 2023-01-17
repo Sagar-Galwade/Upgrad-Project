@@ -7,20 +7,27 @@
     <title>List</title>
     <link rel="stylesheet" href="styles\common.css">
     <link rel="stylesheet" href="styles\list.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <section>
+    <header id="header">
+        <div class="header">
                 <span><a href="index.html"><img src="assests\images\logo.png" alt="logo" id="logoimg"></a></span>
-                <span><a href="login.html">Login</a></span>
-            </section>
-        </nav>
+                <span class="loginbtn"><a href="login.html">Login</a></span>
+        </div>        
     </header>
     <div class="content">
-       <ul>
-           <li><a href="list.html#list-view">List View</a></li>
-           <li><a href="list.html#map-view">Map View</a></li>
+       <ul class="center-list">
+           <span class="space-span">
+            <!-- <li class="inline-list"> -->
+                <a href="list.html#list-view">List View</a>
+            <!-- </li> -->
+        </span>
+           <span class="space-span">
+            <!-- <li class="inline-list"> -->
+                <a href="list.html#map-view">Map View</a>
+            <!-- </li> -->
+        </span>
        </ul>
        <div class="content1">
             <div class="list-view">
@@ -42,21 +49,29 @@
                 <p>New Delhi</p>
                 </div>
         </div>
-       <div id="map-view">
+       <!-- <div id="map-view">
            <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" alt="Map Image">
         </div>
     </div>
     <div>
         <p>Map View</p>
-    </div>
-    <footer>
-        <span><a href="contact.html">Contact Us</a></span>
-        <div>
-            <span><a href="https://www.facebook.com/" target="_blank"><img src="assests\images\facebook.png" alt="facebook" style="height: 20px; width: 22px;"></a></span>
-            <span><a href="https://www.instagram.com/" target="_blank"><img src="assests\images\instagram.png" alt="instagram" style="height: 20px; width: 22px;"></a></span>
-            <span><a href="https://www.twitter.com/" target="_blank"><img src="assests\images\twitter.png" alt="twitter" style="height: 20px; width: 22px;"></a></span>
-        </div>
-        <span><p>&#169; 2020 ROOM SEARCH PVT. LTD.</p></span>
-    </footer>
+    </div> -->
+    <!-- footer div -->
+    <footer id="footer">
+
+       
+        <!--Footer div-->
+        <!--first section of Footer div-->
+        <span class="contactbtn">Contact Us</span>
+        <!--second section of Footer div-->
+        <div id="social">
+        <a href="https://www.facebook.com" target="_blank"><img class="social-img" src="assests/images/facebook.png" alt="facebook"></a>
+        <a href="https://www.instagram.com" target="_blank"><img class="social-img" src="assests/images/instagram.png" alt="instagram"></a>
+        <a href="https://twitter.com" target="_blank"><img class="social-img" src="assests/images/twitter.png" alt="twitter"></a>
+      </div>
+        <br>
+        <!--third section of Footer div-->
+        <p class="copyRight">© 2020 ROOM SEARCH PVT. LTD.</p>
+        </footer>
 </body>
 </html>
