@@ -3,7 +3,7 @@ html, body{
     height: 100%;
     width: 100%;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 #logoimg {
     height: 60px;
@@ -52,7 +52,7 @@ footer{
     bottom: 0;
     height: 60px;
     align-items: center;
-  }
+  } 
 #footerstyle_row {
     background: rosybrown;
     max-width: 100%;
@@ -104,4 +104,7 @@ width: 33.33%;
   }
 .content{
     padding: 5.5% 2%;
+}
+.logo{
+    margin-left:1%;
 }
