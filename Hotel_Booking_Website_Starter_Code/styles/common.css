@@ -1,48 +1,63 @@
-html, body{
-    margin: 0;
-    height: 100%;
-    width: 100%;
+:root{
     font-family: 'Ubuntu', sans-serif;
-    font-size: 16px;
 }
-#logoimg {
-    height: 60px;
-    width: 60px;
-    }
-.city_img{
-    height: 150px;
-    width: 150px;
-}
-.social-img{
-        height: 20px;
-        width: 22px;
-    }
 body{
-    background-color: #e0e0e0;
+    margin: 90px 0;
+   background-color:#e0e0e0;
 }
-.header{
-    display: flex;
-    flex-direction: row;
+#header{
     position: fixed;
     background-color: rosybrown;
-    width: 100%;
     top: 0;
-    z-index: 80;
+    z-index: 99;
 }
-.header a{
+/* .logo{
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    margin-left: 2%;
+  } */
+.nav.navbar {
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    align-items: center;
+    background-color: rosybrown;
+    
+}
+.logo img {
+    width: 90px;
+    margin-left: 14px;
+    float: left;
+    position: relative;
+}
+.logo {
+    width: 93vw;
+}
+.login-btn{
+    width: 7vw;
+    margin-right: 20px;
+}
+.login-btn a{
     text-decoration: none;
-    color: #111111;
+    color: black;
 }
-.header .loginbtn #logoimg{
-    margin: 0 auto;
-    padding: 0 auto;
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
-.loginbtn {
-        right: 0%;
-        top: 0px;
-        margin-top: 1.5%;
-        margin-right: 2%;
-        position: absolute;
+#list-view{
+    margin: 2px 5px;
+}
+#map-view{
+    margin: 2px 5px;
+}
+.footer{
+    
+    
 }
 footer{
     display: flex;
@@ -52,46 +67,22 @@ footer{
     bottom: 0;
     height: 60px;
     align-items: center;
-  } 
-#footerstyle_row {
-    background: rosybrown;
-    max-width: 100%;
-    margin: 0;
-    height: 60px;
-    position: fixed;
-}
-.col-md-4.contact_col {
-    width: 33.33%;
-}
-.col-md-4.copy_col{
-    width: 33.33%;
-}
-.col-md-4.social_media_col{
-width: 33.33%;
-}
-.contactbtn{
-    text-align: left;
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-.contactbtn a{
+  }
+.social-meadia img {
+    width: 22px;
+    height: 20px;
     text-decoration: none;
-    color:#111111;
+    margin: 0 5px;
 }
-.copyright_col{
-    text-align: center;
-    padding-top: 2.5rem;
-    /* padding-bottom: 10px; */
-}
-#social {
+#social{
     position: absolute;
-    right: 1%;
+    right:1%;
     align-items: center;
-    bottom: 25%;
+    bottom:25%;
     margin-right: 1%;
-}
-  .contactbtn{
-    bottom: 5%;
+  }
+  .contactStyle{
+    bottom: 25%;
     margin-left: 4%;
     text-decoration: none;
     position: absolute;
@@ -100,11 +91,8 @@ width: 33.33%;
   .copyRight{
     margin-left: 45%;
   font-size: 10px;
-  margin-top: 3%;
   }
-.content{
-    padding: 5.5% 2%;
-}
-.logo{
-    margin-left:1%;
-}
+  a{
+    text-decoration: none;
+    color: black;
+  }
