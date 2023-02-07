@@ -10,7 +10,7 @@
   height: 35px;
   animation: logo-anim 8s linear 0s infinite normal forwards;
 }
-@keyframes logo-anim {
+@keyframes logo-anim { 
   0%{
     transform: rotate(0deg);
   }

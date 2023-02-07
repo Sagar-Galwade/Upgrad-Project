@@ -11,7 +11,7 @@ class Header extends React.Component{
     this.state={
       isLoggedIn: false
     }
-  }
+  } 
   setText = () => this.state.isLoggedIn? "LOG OUT" : "LOGIN";
   setLogin = () => {
     this.setState((prevState)=>({
