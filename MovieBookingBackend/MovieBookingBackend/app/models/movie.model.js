@@ -1,24 +1,24 @@
 module.exports=(mongoose)=>{
 
   const ArtistSchema = new mongoose.Schema({
-    artistsid : {type : Number, required : true},
-    first_name : {type : String, required : true},
-    last_name : {type : String, required : true},
-    wiki_url : {type : String, required : true},
-    profile_url : {type : String, required : true},
-    movies : {type : [mongoose.Schema.Types.ObjectId], required : true}
+    artistsid: {type : Number, required : true},
+    first_name: {type : String, required : true},
+    last_name: {type : String, required : true},
+    wiki_url: {type : String, required : true},
+    profile_url: {type : String, required : true},
+    movies: {type : [mongoose.Schema.Types.ObjectId], required : true}
   });
 
   const Show = new mongoose.Schema({
     id: {type : Number, required : true},
-    theatre: {type : {
-      name: {
-        type: String,
-        required: true
+    theatre : {type : {
+      name : {
+        type : String,
+        required : true
       },
-      city: {
-        type: String,
-        required: true
+      city : {
+        type : String,
+        required : true
       }
     }, required : true},
     language : {type : String, required : true},
