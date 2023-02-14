@@ -106,7 +106,7 @@ const findShows = async (req, res) =>{
   try{
     const {movieid} = req.params;
     const id = parseInt(movieid, 10);
-    if(id !== NaN){
+    if(id !== NaN) {
       const shows = await Movie.find({"movieid" : id}).shows;
       if(shows.length > 0){
         res.status(200).json(shows);
