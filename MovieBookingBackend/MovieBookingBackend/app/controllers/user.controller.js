@@ -182,7 +182,7 @@ const bookShow = async (req, res)=>{
 }
 
 // function to get the discount value based on the coupon
-const getCouponCode = async (req, res) =>{
+const getCouponCode= async (req, res) =>{
   // if user is logged in
   if(!req.header("Authorization")){
     res.status(400).json({message : "Invalid user"});
