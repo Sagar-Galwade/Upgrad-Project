@@ -12,4 +12,4 @@ module.exports=(mongoose)=>{
   );
   const Artist = mongoose.model("artist", ArtistSchema);
   return Artist;
-};
+}; 
