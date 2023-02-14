@@ -2,7 +2,7 @@ const PORT = 8085;
 
 const db = require("./app/models/index");
 
-const main= (async()=>{
+const main = (async()=>{
   try{
     await db.mongoose.connect(db.url, {
       useNewUrlParser: true,
