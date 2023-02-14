@@ -10,4 +10,4 @@ const main = app =>{
   router.get('/coupons', users.getCouponCode); //api for getting the discount value based on the coupon code
 }
 
-module.exports = main;
+module.exports = main; 
