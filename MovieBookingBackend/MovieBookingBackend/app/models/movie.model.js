@@ -10,15 +10,15 @@ module.exports=(mongoose)=>{
   });
 
   const Show = new mongoose.Schema({
-    id : {type : Number, required : true},
-    theatre : {type : {
-      name : {
-        type : String,
-        required : true
+    id: {type : Number, required : true},
+    theatre: {type : {
+      name: {
+        type: String,
+        required: true
       },
-      city : {
-        type : String,
-        required : true
+      city: {
+        type: String,
+        required: true
       }
     }, required : true},
     language : {type : String, required : true},
